@@ -1,7 +1,9 @@
 import React from "react";
 import "./App.css";
-import { Button, Card, Form } from "react-bootstrap";
+import { Card } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
+import FormTodo from "./FormTodo.jsx";
+import Todo from "./Todo.jsx";
 
 function App() {
   const [todos, setTodos] = React.useState([
